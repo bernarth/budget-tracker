@@ -43,3 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 `npx shadcn-ui add` and press A
 
 `npm install next-themes`
+
+`npm install prisma --save-dev`
+
+33:08
