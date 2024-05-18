@@ -46,4 +46,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 `npm install prisma --save-dev`
 
+`npx prisma migrate dev --name init`
+
+`npm install @tanstack/react-query`
+
+`npm install @tanstack/react-query-devtools --save-dev`
+
 33:08
