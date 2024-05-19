@@ -35,7 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 `npm install lucide-react`
 
 `npx shadcn-ui init`
@@ -52,4 +51,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 `npm install @tanstack/react-query-devtools --save-dev`
 
-33:08
+Optionals
+
+`npm i @emoji-mart/data`
+
+`npm i @emoji-mart/react`
+
+2:09:30
