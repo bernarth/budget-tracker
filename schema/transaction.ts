@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const CreateTransactionSchmea = z.object({
+export const CreateTransactionSchema = z.object({
   amount: z.coerce.number().positive().multipleOf(0.01),
   description: z.string().optional(),
   date: z.coerce.date(),
@@ -11,4 +11,4 @@ export const CreateTransactionSchmea = z.object({
   ])
 });
 
-export type CreateTransactionSchemaType = z.infer<typeof CreateTransactionSchmea>
+export type CreateTransactionSchemaType = z.infer<typeof CreateTransactionSchema>

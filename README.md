@@ -57,4 +57,4 @@ Optionals
 
 `npm i @emoji-mart/react`
 
-2:09:30
+2:11:00
