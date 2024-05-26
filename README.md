@@ -57,4 +57,10 @@ Optionals
 
 `npm i @emoji-mart/react`
 
+--------
+
+`npm install @radix-ui/react-icons`
+
+`https://github.com/johnpolacek/date-range-picker-for-shadcn`
+
 2:11:00
