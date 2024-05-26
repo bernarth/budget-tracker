@@ -65,4 +65,6 @@ Optionals
 
 `npm install react-countup`
 
-2:11:00
+`npm install recharts`
+
+3:07:50
