@@ -63,4 +63,6 @@ Optionals
 
 `https://github.com/johnpolacek/date-range-picker-for-shadcn`
 
+`npm install react-countup`
+
 2:11:00
