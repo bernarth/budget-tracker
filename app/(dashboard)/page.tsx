@@ -52,7 +52,7 @@ async function Page() {
         </div>
       </div>
       <Overview userSettings={userSettings} />
-      <History userSettings={userSettings} />
+      {/* <History userSettings={userSettings} /> */}
     </div>
   );
 }
