@@ -43,7 +43,7 @@ function CreateTransactionDialog({ trigger, type }: Props) {
 
   const { mutate, isPending } = useMutation({
     mutationFn: CreateTransaction,
-    onSuccess: () => {
+    onSuccess: async () => {
       toast.success("Transaction created successfully 🎉", {
         id: "create-transaction"
       });
@@ -57,7 +57,7 @@ function CreateTransactionDialog({ trigger, type }: Props) {
       });
 
       // After creating a transaction, we need to invalidate the overview query which will refetch data in the homepage
-      queryClient.invalidateQueries({
+      await queryClient.invalidateQueries({
         queryKey: ["overview"]
       });
 

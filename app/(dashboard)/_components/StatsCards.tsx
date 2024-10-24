@@ -20,7 +20,7 @@ function StatsCards({ from, to, userSettings }: Props) {
 
   const statsQuery = useQuery<GetBalanceStatsResponseType>({
     queryKey: ["overview", "stats", from, to],
-    queryFn: () => fetch(`/api/stats/balance?from=${DateToUTCDate(from)}&to=${DateToUTCDate(to)}`)
+    queryFn: async () => await fetch(`/api/stats/balance?from=${DateToUTCDate(from)}&to=${DateToUTCDate(to)}`)
       .then((res) => res.json())
   });
 
